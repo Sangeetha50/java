@@ -1,0 +1,30 @@
+public class MyClass {
+   public static void main(String[] args) {
+              String str = "1a2b3c4defgh567jklksfdl5879";
+              String number = "";
+              String letter = "";
+              int j;
+              for (int i = 0; i < str.length(); i++) {
+                     char a = str.charAt(i);
+                  
+                     if (Character.isDigit(a)) {
+                        
+                           number = number + a;
+                           number.split(",");
+                           
+
+                     } else {
+                      int[] aa={a};
+                    
+                     }
+              }
+              
+              System.out.println("Alphates in string:"+letter);
+              System.out.println("Numbers in String:"+number);
+              
+        
+
+       }
+
+    
+}
