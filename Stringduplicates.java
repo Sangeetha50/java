@@ -1,4 +1,4 @@
-public class Program
+public class Stringduplicates
 {
 	public static void main(String[] args) {
 	    int i,j,l;
