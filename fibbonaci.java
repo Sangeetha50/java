@@ -1,12 +1,14 @@
 public class MyClass {
     public static void main(String args[]) {
-       int i,k=0,j=1;
-       for(i=0;i<5;i++) {
-    
-           System.out.print(k);
-           i=j;
-           j=k;
-           k=i+j;
-       }
-    }
+
+        int a=0,b=1,c=0;
+        System.out.print(a+" "+b);
+        for(int i=2;i<5;i++) {
+            c=a+b;
+            System.out.print(" "+c);
+            a=b;
+            b=c;
+        }
+           
+      }
 }
