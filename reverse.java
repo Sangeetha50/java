@@ -19,5 +19,13 @@ class reverse
 			c[i]=b[b.length-i-1];
 		}
 		System.out.println(new String(c));
+		//aternative
+			 String st ="sangeetha";
+		int length=st.length();
+	
+		for(int ii=length-1;ii>=0;ii--){
+		    System.out.print(st.charAt(ii));
+		}
+		
 	}
 }
