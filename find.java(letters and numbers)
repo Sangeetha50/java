@@ -14,7 +14,7 @@ public class MyClass {
                            
 
                      } else {
-                      int[] aa={a};
+                     letter=letter+a;
                     
                      }
               }
