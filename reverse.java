@@ -26,6 +26,12 @@ class reverse
 		for(int ii=length-1;ii>=0;ii--){
 		    System.out.print(st.charAt(ii));
 		}
+		\\character reverse
 		
+			
+		char ch[]={'a','v','b'};
+		for(int i=ch.length-1;i>=0;i--){
+		    System.out.print(ch[i]);
+		}
 	}
 }
